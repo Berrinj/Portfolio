@@ -1,0 +1,233 @@
+@import url(https://db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=AzonixRegular);
+@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap);
+/* @import "/css/ui.css"; */
+
+nav {
+    height: 50px;
+    background-color: var(--nav-footer-bg);
+    width: 100%;
+}
+
+.nav-content {
+    max-width: 1650px;
+}
+
+.logo {
+    font-size: 1.1rem;
+    color: var(--white-txt);
+    padding-left: 5%;
+}
+
+nav ul {
+    width: 400px;
+    color: var(--white-txt);
+    align-items: center;
+    padding-right: 5%;
+    list-style: none;
+}
+
+.hamburger-menu {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    display: none;
+}
+
+.fa-solid .fa-bars {
+    height: 50px;
+}
+
+/* font styles */
+
+.font-azonix {
+    font-family: "AzonixRegular";
+}
+
+.font-heebo {
+    font-family: "Heebo";
+}
+
+/*margin styles*/
+.ma-au {
+    margin: auto;
+}
+
+.ma-0 {
+    margin: 0;
+}
+
+.ma-au-0 {
+    margin: auto 0;
+}
+
+/* text styles */
+
+.txt-center {
+    text-align: center;
+}
+
+/* flex styles */
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.flex-jc-cen {
+    justify-content: center;
+}
+
+.flex-ai-end {
+    align-items: end;
+}
+
+.flex-ai-cen {
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.name-container {
+    padding-right: 10px;
+}
+
+.fed {
+    letter-spacing: .57rem;
+    opacity: 30%;
+    text-transform: uppercase;
+    font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+    /* font-size: 1.1rem; */
+}
+
+.first-name,
+.last-name {
+    /* font-size: 6rem; */
+    font-size: clamp(1.9rem, 8vw, 6rem);
+    max-width: 661px;
+    font-weight: 500;
+}
+
+.intro-text {
+    font-size: 1.3rem;
+    text-align: end;
+    max-width: 661px;
+    padding-left: 220px;
+    padding-right: 5px;
+}
+
+.intro-text p {
+    margin-top: 0;
+    max-width: 600px;
+}
+
+.portfolio {
+    font-weight: 200;
+    margin: 20px;
+}
+
+/* .card-container {
+    margin-bottom: 20px;
+} */
+
+.card-txt-container {
+    max-width: 650px;
+    background-color: var(--portfolio_card-bg);
+    border-radius: 10px 0 0px 10px;
+    color: var(--light-txt);
+    padding: 20px;
+    position: relative;
+}
+
+.card-txt-container h2 {
+    margin-top: 0;
+}
+
+.course-mobile {
+    display: none;
+}
+
+.card-buttons {
+    gap: 10px
+}
+
+.card-button {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--portfolio_card-bg);
+    color: var(--light-txt);
+    cursor: pointer;
+    border: 1px solid var(--button-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.card-button:hover {
+    background-color: var(--nav-footer-bg);
+    color: var(--light-txt);
+}
+
+.course {
+    width: 60px;
+    height: inherit;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.course h3 {
+    opacity: 50%;
+    font-weight: 300;
+}
+
+.website-screnshot {
+    /* background-color: var(--portfolio_card-bg); */
+
+}
+
+.website-screnshot img {
+    width: 270px;
+    object-fit: contain;
+}
+
+.game-hub {
+    /* background-image: url(/img/screenshot-gamehub-marte-v3.jpg); */
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-gamehub-marte-v3.jpg);
+    /* object-fit: fill; */
+    background-position: top;
+}
+
+.c-s-m {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-sp1-noroff-csm-440kb.jpg);
+    /* object-fit: cover;*/
+    background-position: start;
+}
+
+.f-b {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-fenty.jpg);
+    /* object-fit: cover;*/
+    background-position: top;
+}
+
+.copyright {
+    color: var(--light-txt);
+    text-align: center;
+}
