@@ -25,6 +25,17 @@
         display: none;
     }
 
+    .main-menu.active {
+        right: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--nav-footer-bg);
+        gap: 20px;
+        padding: 20px;
+        border-top: 1px solid #fff;
+    }
+
     .fed {
         letter-spacing: .30rem;
         padding-left: 10px;
@@ -36,6 +47,7 @@
 
     .hello {
         margin: 0;
+        font-size: 0.9rem;
     }
 
     .card-container {
@@ -79,10 +91,24 @@
         margin-top: 25px;
     }
 
+    .fed {
+        margin: 10px auto;
+        letter-spacing: .20rem;
+        opacity: 50%;
+    }
+
+    .mobile-profile-img {
+        display: flex;
+        justify-content: center;
+    }
+
     .intro-text {
         font-size: 1rem;
-        margin-bottom: 280px;
-        padding-left: 10px;
+        padding-left: 0;
+    }
+
+    .header-container {
+        background-image: none;
     }
 
 }

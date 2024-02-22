@@ -1,10 +1,11 @@
 :root {
-    --nav-footer-bg: #435B3A;
+    --nav-footer-bg: #0d0b28;
     --portfolio_card-bg: #2E2D2D;
     --button-bg: #77936E;
     --white-txt: #fff;
     --light-txt: #F5F5F5;
     --dark-txt: #000;
+    --extra-one: #435B3A;
 
 }
 
@@ -12,6 +13,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FBFBFB;
+}
+
+nav {
+    height: 50px;
+    background-color: var(--nav-footer-bg);
+    width: 100%;
+    font-family: "Heebo";
 }
 
 header {
@@ -59,8 +67,8 @@ footer {
 .down-arrow-dark {
     width: 0;
     height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
 
     border-top: 50px solid var(--nav-footer-bg);
 
