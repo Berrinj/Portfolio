@@ -19,7 +19,8 @@
     <div class="nav-content ma-au flex flex-jc-sb">
         <div class="mobile-menu flex flex-ai-cen flex-jc-sb">
             <div class="logo ma-au-0 font-azonix ">BERREMARTE</div>
-            <div class="hamburger-menu"><i class="fa-solid fa-bars fa-2xl" style="color: #FFF;"></i></div>
+            <button class="hamburger-menu" aria-expanded="false"><img class="menu-icon" src="icons/menu-svgrepo-com.svg"
+                    alt="Menu icon"></button>
         </div>
         <ul class="main-menu flex flex-jc-sb">
             <li>HOME</li>
@@ -41,7 +42,7 @@
             </div>
             <h1 class="last-name ma-0 font-azonix ">Lilleberre</h1>
             <div class="intro-text font-heebo">
-                <p>33 year old woman living in Trondheim, Norway, currently studying Front End Development at Noroff
+                <p>33 year old woman living in Trondheim, Norway, currently studying Front-end Development at Noroff
                     vocational school where I’m enrolled in their online studies.</p>
             </div>
         </div>
@@ -51,9 +52,9 @@
 
 <body>
     <main class="ma-au">
-        <h1 class="portfolio txt-center font-azonix">MY PORTFOLIO:</h1>
+        <h1 class="heading-main portfolio txt-center font-azonix">MY PORTFOLIO:</h1>
         <div class="card-container flex">
-            <div class="card-txt-container font-heebo">
+            <div class="card-txt-container">
                 <h2>Fenty blog</h2>
                 <p class="course-mobile">Project Exam 1</p>
                 <p>For this project I was tasked to create a blog site where I could choose the design and topics
@@ -68,10 +69,10 @@
                 <p>This was such a fun project using WordPress installation as a Headless CMS. The process was over 5
                     weeks with designing, building content for the site and developing everything with HTML, CSS and
                     JavaScript.</p>
-                <p>If you’d like to read more about the project, check out the GitHub repo or see the website live on
+                <p>If you’d like to check out the GitHub repo or see the website live on
                     Netlify you can enter via the buttons below</p>
                 <div class="card-buttons flex flex-wrap flex-jc-cen">
-                    <button class="card-button">Read More</button>
+                    <!-- <button class="card-button">Read More</button> -->
                     <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Berrinj" target="_blank"
                         class="card-button">GitHub Repository</a>
                     <a href="https://fenty.netlify.app/" target="_blank" class="card-button">Live site</a>
@@ -87,7 +88,7 @@
         <div class="down-arrow"></div>
 
         <div class="card-container flex">
-            <div class="card-txt-container font-heebo">
+            <div class="card-txt-container">
                 <h2>Game Hub E-commerce</h2>
                 <p class="course-mobile">Cross-Course Project</p>
                 <p>For this project I was tasked to make a e-commerce webpage for a shop named Game Hub, where users
@@ -95,10 +96,10 @@
                     The design of the website was made at the beginning of my education, and I was given images and more
                     to work with on this project. Later on I was tasked to deliver a properly functioning, responsive
                     website using HTML and CSS of my design over a 5 week time period.</p>
-                <p>If you’d like to read more about the project, check out the GitHub repo or see the website live on
+                <p>If you’d like to check out the GitHub repo or see the website live on
                     Netlify you can enter via the buttons below</p>
                 <div class="card-buttons flex flex-wrap flex-jc-cen">
-                    <button class="card-button">Read More</button>
+                    <!-- <button class="card-button">Read More</button> -->
                     <a href="https://github.com/Berrinj/game-hub_v3" target="_blank" class="card-button">GitHub
                         Repository</a>
                     <a href="https://gamehub-marte-v3.netlify.app/" target="_blank" class="card-button">Live site</a>
@@ -115,7 +116,7 @@
         <div class="down-arrow"></div>
 
         <div class="card-container flex">
-            <div class="card-txt-container font-heebo">
+            <div class="card-txt-container">
                 <h2>Community Science Museum</h2>
                 <p class="course-mobile">Semester Project 1</p>
                 <p>For this project I was tasked to make a website for an interactive local Community Science Museum
@@ -125,10 +126,10 @@
                     to visit the museum.</p>
                 <p>This was my first full website build in one course at Noroff, and it was made over 4 weeks with
                     designing and building the website with HTML and CSS. </p>
-                <p>If you’d like to read more about the project, check out the GitHub repo or see the website live on
+                <p>If you’d like to check out the GitHub repo or see the website live on
                     Netlify you can enter via the buttons below</p>
                 <div class="card-buttons flex flex-wrap flex-jc-cen">
-                    <button class="card-button">Read More</button>
+                    <!-- <button class="card-button">Read More</button> -->
                     <a href="https://github.com/Berrinj/SP1-noroff-CSM" target="_blank" class="card-button">GitHub
                         Repository</a>
                     <a href="https://sp1-noroff-csm.netlify.app/" target="_blank" class="card-button">Live
@@ -144,11 +145,76 @@
             </div>
         </div>
 
+        <div class="down-arrow-dark"></div>
+
+        <div class="education-container">
+            <h1 class="heading-main education txt-center font-azonix">ABOUT ME:</h1>
+            <p>Hei der! Mitt navn er Marte, 33 år med en stor interesse for web utvikling! Har jobbet i barnehage de
+                siste 10 årene, men jeg har alltid visst at jeg ville gå i en helt annen retning.
+                På fritiden har koding vært en hobby så lenge jeg kan huske, men med fulltidsjobb, barn og lite fritid
+                for meg selv, fikk jeg sjelden mettet lærelysten. I mars 2023 begynte jeg på fulltids-utdanningen
+                Front-End Development hos Noroff fagskole, og selv om jeg forsatt jobber 80% i barnehage kan jeg endelig
+                si at jeg er jeg godt igang med å gå fra hobby til heltid, og jakten på drømmejobben har startet.</p>
+            <h2 class="sub-heading-main font-azonix">MY EDUCATION</h2>
+            <ul>
+                <li>February 2023: Completed the Front End Web Development track at teamtreehouse.com</li>
+                <li>March 2023: Began my 2 year Front End Web Development education at Noroff, will graduate March 2025.
+                </li>
+            </ul>
+            <h2 class="sub-heading-main font-azonix">SKILLS</h2>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Design</li>
+            </ul>
+        </div>
+
+        <div class="contact-container">
+            <h1 class="heading-main education txt-center font-azonix">CONTACT:</h1>
+            <div class="social-media-container flex flex-jc-cen">
+                <a href=""></a>
+                <a href="#"><svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12ZM16 12V13.5C16 14.8807 17.1193 16 18.5 16V16C19.8807 16 21 14.8807 21 13.5V12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21H16"
+                            stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+                <a href="#"><svg width="800px" height="800px" viewBox="0 0 24 20" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                        <title>instagram [#167]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)"
+                                fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path
+                                        d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                        id="instagram-[#167]">
+
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg></a>
+                <a href="#"><svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z"
+                            fill="#000000" />
+                    </svg></a>
+            </div>
+        </div>
+
     </main>
     <div class="up-arrow"></div>
     <footer class="flex flex-jc-cen flex-ai-cen">
         <div class="copyright">
-            <p>Copyright &#169; berremarte.no 2024</p>
+            <p>Marte Lilleberre &#169; 2024</p>
             <p>All rights reserved</p>
         </div>
     </footer>

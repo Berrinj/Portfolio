@@ -12,6 +12,11 @@
     padding-left: 20px;
 }
 
+.menu-icon {
+    height: 40px;
+    width: auto;
+}
+
 nav ul {
     width: 400px;
     color: var(--white-txt);
@@ -23,10 +28,12 @@ nav ul {
 .hamburger-menu {
     display: flex;
     height: inherit;
+    border: none;
     align-items: center;
     justify-content: flex-end;
     margin-right: 10px;
     display: none;
+    background-color: inherit;
 }
 
 .fa-solid .fa-bars {
@@ -144,9 +151,13 @@ nav ul {
     max-width: 600px;
 }
 
-.portfolio {
+.heading-main {
     font-weight: 200;
     margin: 20px;
+}
+
+.sub-heading-main {
+    font-weight: 200;
 }
 
 /* .card-container {
@@ -178,6 +189,7 @@ nav ul {
     padding: 10px;
     border-radius: 6px;
     background-color: var(--portfolio_card-bg);
+    background-color: var(--nav-footer-bg);
     color: var(--light-txt);
     cursor: pointer;
     border: 1px solid var(--button-bg);
@@ -188,7 +200,7 @@ nav ul {
 }
 
 .card-button:hover {
-    background-color: var(--nav-footer-bg);
+    background-color: var(--button-bg);
     color: var(--light-txt);
 }
 
@@ -239,4 +251,17 @@ nav ul {
 .copyright {
     color: var(--light-txt);
     text-align: center;
+}
+
+.social-media-container {
+    gap: 20px;
+}
+
+.social-media-container svg {
+    height: 50px;
+    width: 50px;
+}
+
+.icons {
+    width: 40px;
 }
