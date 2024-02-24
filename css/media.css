@@ -37,6 +37,7 @@
         padding: 20px;
         border-top: 1px solid #fff;
         font-size: 1.4rem;
+        box-shadow: 10px 13px 34px -6px var(--dark-txt);
     }
 
 
@@ -100,7 +101,7 @@
 
 @media (max-width: 460px) {
     header {
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     .fed {
@@ -111,7 +112,7 @@
 
     .mobile-profile-img {
         display: flex;
-        justify-content: center;
+        justify-content: start;
     }
 
     .intro-text {

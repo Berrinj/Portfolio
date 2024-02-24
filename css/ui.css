@@ -21,11 +21,13 @@ nav {
     background-color: var(--nav-footer-bg);
     width: 100%;
     font-family: "Heebo";
+    position: fixed;
+    top: 0;
 }
 
 header {
     /* max-height: 500px; */
-    margin-top: 50px;
+    margin-top: 100px;
     max-width: 100%;
     /* background-image: url(/img/header-background.png);
     background-repeat: no-repeat;
@@ -39,6 +41,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0 100%;
     border-bottom: 1px solid #000;
+    /* margin-top: 100px; */
 }
 
 main {
