@@ -67,7 +67,7 @@ nav ul {
     cursor: pointer;
 }
 
-.mobile-profile-img {
+.mobile-profile-img-container {
     width: 100%;
     display: none;
     margin-bottom: 10px;
@@ -87,7 +87,7 @@ nav ul {
     box-shadow: 0px 12px 10px -6px var(--dark-txt);
 } */
 
-.round-profile-img {
+.mobile-profile-img {
     width: 60%;
     height: 200px;
     object-fit: cover;

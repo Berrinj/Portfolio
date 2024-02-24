@@ -110,7 +110,7 @@
         opacity: 50%;
     }
 
-    .mobile-profile-img {
+    .mobile-profile-img-container {
         display: flex;
         justify-content: start;
     }
