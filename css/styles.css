@@ -1,6 +1,26 @@
-@import url(https://db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=AzonixRegular);
-@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap);
 /* @import "/css/ui.css"; */
+
+/*margin styles*/
+.ma-au {
+    margin: auto;
+}
+
+.ma-0 {
+    margin: 0;
+}
+
+.ma-au-0 {
+    margin: auto 0;
+}
+
+/* text styles */
+
+.txt-center {
+    text-align: center;
+}
+
+
+
 
 .nav-content {
     max-width: 1300px;
@@ -39,70 +59,6 @@ nav ul {
     display: none;
     background-color: inherit;
     cursor: pointer;
-}
-
-
-/* font styles */
-
-.font-azonix {
-    font-family: "AzonixRegular";
-}
-
-.font-heebo {
-    font-family: "Heebo";
-}
-
-/*margin styles*/
-.ma-au {
-    margin: auto;
-}
-
-.ma-0 {
-    margin: 0;
-}
-
-.ma-au-0 {
-    margin: auto 0;
-}
-
-/* text styles */
-
-.txt-center {
-    text-align: center;
-}
-
-/* flex styles */
-
-.flex {
-    display: flex;
-}
-
-.flex-jc-sb {
-    justify-content: space-between;
-}
-
-.flex-jc-cen {
-    justify-content: center;
-}
-
-.flex-ai-end {
-    align-items: end;
-}
-
-.flex-ai-cen {
-    align-items: center;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
 }
 
 .mobile-profile-img {

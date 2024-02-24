@@ -1,0 +1,33 @@
+/* flex styles */
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.flex-jc-cen {
+    justify-content: center;
+}
+
+.flex-ai-end {
+    align-items: end;
+}
+
+.flex-ai-cen {
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
