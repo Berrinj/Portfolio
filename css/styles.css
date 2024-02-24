@@ -261,14 +261,18 @@ nav ul {
     width: 50px;
 }
 
-.icons {
-    width: 40px;
+.social-media-container svg:hover {
+    transform: scale(1.2);
 }
+
+/* .icons {
+    width: 40px;
+} */
 
 .back-to-top {
     margin-top: 50px;
 }
 
 .back-to-top:hover {
-    font-style: italic;
+    transform: scale(1.1);
 }
