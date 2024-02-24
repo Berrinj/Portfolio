@@ -23,6 +23,7 @@ nav {
     font-family: "Heebo";
     position: fixed;
     top: 0;
+    z-index: 5;
 }
 
 header {
