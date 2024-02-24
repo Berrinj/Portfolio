@@ -70,6 +70,10 @@
         margin-bottom: 0;
     }
 
+    .project-skills {
+        justify-content: center;
+    }
+
     .course-mobile {
         display: block;
         text-align: center;
@@ -83,6 +87,10 @@
 
     .down-arrow {
         margin: 20px auto;
+    }
+
+    .about-container {
+        padding: 0 20px;
     }
 }
 
@@ -109,6 +117,11 @@
 
     .header-container {
         background-image: none;
+    }
+
+    .social-media-container svg {
+        width: 30px;
+        height: 30px;
     }
 
 }

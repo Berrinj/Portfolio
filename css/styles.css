@@ -17,6 +17,10 @@
     width: auto;
 }
 
+.close-menu-icon {
+    display: none;
+}
+
 nav ul {
     width: 400px;
     color: var(--white-txt);
@@ -34,11 +38,9 @@ nav ul {
     margin-right: 10px;
     display: none;
     background-color: inherit;
+    cursor: pointer;
 }
 
-.fa-solid .fa-bars {
-    height: 50px;
-}
 
 /* font styles */
 
@@ -174,7 +176,22 @@ nav ul {
 }
 
 .card-txt-container h2 {
-    margin-top: 0;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.project-skills {
+    gap: 10px;
+    font-size: 0.8rem;
+    height: fit-content;
+    margin-top: 5px;
+}
+
+.skill {
+    background-color: var(--button-bg);
+    padding: 2px 5px;
+    border-radius: 6px;
+    margin: 0;
 }
 
 .course-mobile {
