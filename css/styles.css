@@ -1,12 +1,30 @@
-/* @import "/css/ui.css"; */
+/**     FILE DIRECTORY     
 
-/* Global Styles */
+1. GLOBAL STYLES
+    1.1 MARGIN STYLES
+    1.2 TEXT STYLES
+2.
+3. ARROWS
+4. NAV
+5. HEADER
+6. MAIN
+    6.1 PORTFOLIO
+    6.2 ABOUT ME
+    6.3 CONTACT
+    6.4 BACK TO TOP
+7. FOOTER
+
+**/
+
+
+
+/* 1.   GLOBAL STYLES   */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/*margin styles*/
+/* 1.1.   MARGIN STYLES   */
 .ma-au {
     margin: auto;
 }
@@ -19,14 +37,53 @@ a {
     margin: auto 0;
 }
 
-/* text styles */
+/* 1.2.   TEXT STYLES     */
 
 .txt-center {
     text-align: center;
 }
 
+/* 3.   ARROWS      */
 
+/* https://www.geeksforgeeks.org/how-to-create-triangle-in-css/*/
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
 
+    border-top: 30px solid var(--button-bg);
+
+    margin: 20px 0;
+    opacity: 50%;
+}
+
+.down-arrow-dark {
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+
+    border-top: 50px solid var(--nav-footer-bg);
+
+    margin: auto;
+
+}
+
+.up-arrow {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+
+    border-bottom: 50px solid var(--nav-footer-bg);
+
+    margin: auto;
+
+    margin-top: 50px;
+}
+
+/* 4.   NAV     */
 
 .nav-content {
     max-width: 1300px;
@@ -67,6 +124,7 @@ nav ul {
     cursor: pointer;
 }
 
+/* 5.   HEADER      */
 .mobile-profile-img-container {
     width: 100%;
     display: none;
@@ -92,10 +150,7 @@ nav ul {
     height: 200px;
     object-fit: cover;
     object-position: top;
-    /* border-radius: 120px 120px 0 0; */
 }
-
-
 
 .name-container {
     padding: 0 10px;
@@ -130,6 +185,8 @@ nav ul {
     max-width: 600px;
 }
 
+/* 6.   MAIN    */
+
 .heading-main {
     font-weight: 200;
     margin: 20px;
@@ -139,10 +196,8 @@ nav ul {
     font-weight: 200;
 }
 
-/* .card-container {
-    margin-bottom: 20px;
-} */
 
+/*  6.1 PORTFOLIO   */
 .card-txt-container {
     max-width: 650px;
     background-color: var(--portfolio_card-bg);
@@ -214,11 +269,6 @@ nav ul {
     font-weight: 300;
 }
 
-.website-screnshot {
-    /* background-color: var(--portfolio_card-bg); */
-
-}
-
 .website-screnshot img {
     width: 270px;
     object-fit: contain;
@@ -243,15 +293,12 @@ nav ul {
     background-position: top;
 }
 
+/* 6.2  ABOUT ME    */
 .about-container p {
     font-size: 1.2rem;
 }
 
-.copyright {
-    color: var(--light-txt);
-    text-align: center;
-}
-
+/* 6.3  CONTACT */
 .social-media-container {
     gap: 20px;
 }
@@ -265,9 +312,7 @@ nav ul {
     transform: scale(1.2);
 }
 
-/* .icons {
-    width: 40px;
-} */
+/* 6.4  BACK TO TOP */
 
 .back-to-top {
     margin-top: 50px;
@@ -275,4 +320,11 @@ nav ul {
 
 .back-to-top:hover {
     transform: scale(1.1);
+}
+
+/*  FOOTER  */
+
+.copyright {
+    color: var(--light-txt);
+    text-align: center;
 }

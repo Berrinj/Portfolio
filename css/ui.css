@@ -47,7 +47,7 @@ header {
 
 main {
     max-width: 1000px;
-    padding-inline: 1%;
+    padding-inline: 2%;
 }
 
 footer {
@@ -55,42 +55,4 @@ footer {
     height: 150px;
     background-color: var(--nav-footer-bg);
     font-family: "Heebo";
-}
-
-/* https://www.geeksforgeeks.org/how-to-create-triangle-in-css/*/
-.down-arrow {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-
-    border-top: 30px solid var(--button-bg);
-
-    margin: 20px 0;
-    opacity: 50%;
-}
-
-.down-arrow-dark {
-    width: 0;
-    height: 0;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-
-    border-top: 50px solid var(--nav-footer-bg);
-
-    margin: auto;
-
-}
-
-.up-arrow {
-    width: 0;
-    height: 0;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-
-    border-bottom: 50px solid var(--nav-footer-bg);
-
-    margin: auto;
-
-    margin-top: 50px;
 }

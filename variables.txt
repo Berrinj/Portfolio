@@ -1,0 +1,14 @@
+Colors
+Dark Blue (nav/footer): #0d0b28
+Light Green: #77936E
+Shadow:
+Body background white: #FBFBFB
+Dark grey (portfolio bg): #2E2D2D
+
+Typography:
+Headings: Azonix Regular (onlinewebfonts)
+Body: Heebo (Google Fonts)
+
+About Me:
+Front-end Developer student, that's finally on her way to make her hobby her full-time job! 
+I love to design and make it come to life, with an eye for details and UI in my design, and UX in my coding.
