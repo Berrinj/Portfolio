@@ -24,7 +24,10 @@
         width: 100%;
         z-index: 2;
         display: none;
+    }
 
+    nav ul li:hover {
+        scale: none;
     }
 
     .main-menu.active {
@@ -37,7 +40,7 @@
         padding: 20px;
         border-top: 1px solid #fff;
         font-size: 1.4rem;
-        box-shadow: 10px 13px 34px -6px var(--dark-txt);
+        box-shadow: 10px 13px 34px -6px var(--black);
     }
 
 
@@ -67,7 +70,7 @@
     .card-txt-container {
         order: 2;
         border-radius: 0 0 10px 10px;
-        box-shadow: 0px 12px 10px -6px var(--dark-txt);
+        box-shadow: 0px 12px 10px -6px var(--black);
     }
 
     .card-txt-container h2 {

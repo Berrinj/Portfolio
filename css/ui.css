@@ -1,10 +1,11 @@
 :root {
     --nav-footer-bg: #0d0b28;
     --portfolio_card-bg: #2E2D2D;
-    --button-bg: #77936E;
-    --white-txt: #fff;
+    --light-green: #77936E;
+    --dark-green: #5f7359;
+    --white: #fff;
+    --black: #000;
     --light-txt: #F5F5F5;
-    --dark-txt: #000;
     --extra-one: #435B3A;
 
 }

@@ -6,6 +6,7 @@ const openMenu = document.querySelector(".menu-icon");
 hamburgerMenu.addEventListener("click", hamburgerMenuClick);
 
 export function hamburgerMenuClick() {
+    try {
     nav.classList.toggle("active");
     if(openMenu.style.display === "none") {
         openMenu.style.display = "flex";
@@ -15,5 +16,8 @@ export function hamburgerMenuClick() {
     closeMenu.style.display = "flex";
 }
     let expandedMenu = hamburgerMenu.getAttribute('aria-expanded') === 'true' || false;
-    this.setAttribute('aria-expanded', !expandedMenu);
+    hamburgerMenu.setAttribute('aria-expanded', !expandedMenu);
+} catch(error) {
+    console.log("En feil oppstod med den mobile menyen");
+}
 }

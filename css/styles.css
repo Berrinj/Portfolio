@@ -52,7 +52,7 @@ a {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
 
-    border-top: 30px solid var(--button-bg);
+    border-top: 30px solid var(--dark-green);
 
     margin: 20px 0;
     opacity: 50%;
@@ -91,7 +91,7 @@ a {
 
 .logo {
     font-size: 1.1rem;
-    color: var(--white-txt);
+    color: var(--light-txt);
     padding-left: 20px;
 }
 
@@ -106,10 +106,14 @@ a {
 
 nav ul {
     width: 400px;
-    color: var(--white-txt);
+    color: var(--light-txt);
     align-items: center;
     padding-right: 5%;
     list-style: none;
+}
+
+nav ul li:hover {
+    scale: 1.1;
 }
 
 .hamburger-menu {
@@ -141,8 +145,8 @@ nav ul {
     border-radius: 50%;
     object-fit: cover;
     margin: 0 0 20px 0;
-    border: 1px solid var(--button-bg);
-    box-shadow: 0px 12px 10px -6px var(--dark-txt);
+    border: 1px solid var(--light-green);
+    box-shadow: 0px 12px 10px -6px var(--black);
 } */
 
 .mobile-profile-img {
@@ -220,7 +224,7 @@ nav ul {
 }
 
 .skill {
-    background-color: var(--button-bg);
+    background-color: var(--dark-green);
     padding: 3px 5px;
     border-radius: 6px;
     margin: 0;
@@ -241,7 +245,7 @@ nav ul {
     background-color: var(--nav-footer-bg);
     color: var(--light-txt);
     cursor: pointer;
-    border: 1px solid var(--button-bg);
+    border: 1px solid var(--dark-green);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-decoration: none;
@@ -250,7 +254,7 @@ nav ul {
 }
 
 .card-button:hover {
-    background-color: var(--button-bg);
+    background-color: var(--light-green);
     color: var(--light-txt);
 }
 
@@ -310,6 +314,7 @@ nav ul {
 
 .social-media-container svg:hover {
     transform: scale(1.2);
+
 }
 
 /* 6.4  BACK TO TOP */
