@@ -323,7 +323,11 @@ nav ul li:hover {
     margin-top: 50px;
 }
 
-.back-to-top:hover {
+.back-to-top-link {
+    width: fit-content;
+}
+
+.back-to-top-link:hover {
     transform: scale(1.1);
 }
 
