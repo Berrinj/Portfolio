@@ -314,6 +314,9 @@ nav ul li:hover {
     font-style: italic;
 }
 
+.dynamic-stats {
+    background-color: #77936e8a;
+}
 
 .stats {
     margin: 10px;
