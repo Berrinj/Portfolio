@@ -39,7 +39,7 @@ header {
 
 .header-container {
     max-width: 1000px;
-    background-image: url(/img/skjermbilde-html-hvit.avif);
+    background-image: url(/img/skjermbilde-html-hvit-resized.avif);
     border-bottom: 1px solid #000;
     /* margin-top: 100px; */
     border-radius: 10px 10px 0 0;
