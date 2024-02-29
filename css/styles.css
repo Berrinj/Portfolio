@@ -160,7 +160,7 @@ nav ul li:hover {
 
 .name-container {
     padding: 0 10px;
-    background-image: url(/img/header-background.png);
+    background-image: url(/img/header-background.avif);
     background-repeat: no-repeat;
     background-position: 0 100%;
 }
@@ -192,6 +192,7 @@ nav ul li:hover {
 .intro-text p {
     margin-top: 0;
     max-width: 600px;
+    /* font-family: Georgia, serif; */
 }
 
 /* 6.   MAIN    */
@@ -286,19 +287,19 @@ nav ul li:hover {
 
 .game-hub {
     /* background-image: url(/img/screenshot-gamehub-marte-v3.jpg); */
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-gamehub-marte-v3.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-gamehub-marte-v3.avif);
     /* object-fit: fill; */
     background-position: top;
 }
 
 .c-s-m {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-sp1-noroff-csm-440kb.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-sp1-noroff-csm.avif);
     /* object-fit: cover;*/
     background-position: start;
 }
 
 .f-b {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-fenty.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-fenty.avif);
     /* object-fit: cover;*/
     background-position: top;
 }
@@ -313,10 +314,6 @@ nav ul li:hover {
     font-style: italic;
 }
 
-.dynamic-stats {
-    font-weight: 500;
-    background-color: #77936e5e;
-}
 
 .stats {
     margin: 10px;
@@ -324,7 +321,6 @@ nav ul li:hover {
     border: 1px solid lightgrey;
     padding: 0;
     border-radius: 6px;
-    /* background-color: #0d0b2810; */
 }
 
 .last-achieved {
