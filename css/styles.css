@@ -10,8 +10,9 @@
 6. MAIN
     6.1 PORTFOLIO
     6.2 ABOUT ME
-    6.3 CONTACT
-    6.4 BACK TO TOP
+    6.3 EDUCATION
+    6.4 CONTACT
+    6.5 BACK TO TOP
 7. FOOTER
 
 **/
@@ -303,7 +304,12 @@ nav ul li:hover {
     font-size: 1.2rem;
 }
 
-/* 6.3  CONTACT */
+/* 6.3 EDUCATION    */
+.treehouse-profile-link {
+    font-style: italic;
+}
+
+/* 6.4  CONTACT */
 .social-media-container {
     gap: 20px;
 }
@@ -318,7 +324,7 @@ nav ul li:hover {
 
 }
 
-/* 6.4  BACK TO TOP */
+/* 6.5  BACK TO TOP */
 
 .back-to-top {
     margin-top: 50px;
