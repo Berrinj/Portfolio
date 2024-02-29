@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 
 <head>
     <meta charset="UTF-8">
@@ -39,13 +39,14 @@
             <div class="mobile-profile-img-container">
                 <img class="mobile-profile-img flex" src="img/header-background.png" alt="Headshot of me">
             </div>
-            <div class="hi-name-intro flex flex-ai-end font-azonix">
+            <div class="hi-name-intro flex flex-ai-end font-azonix" tabindex="0">
                 <p class="hello">Hallo, mitt navn er </p>
                 <h1 class="first-name ma-0 ">Marte</h1>
             </div>
             <h1 class="last-name ma-0 font-azonix ">Lilleberre</h1>
-            <div class="intro-text font-heebo">
-                <p>33 år gammel kvinne, opprinnelig fra Grong men bor i Trondheim, som fortiden studerer Front-end
+            <div class="intro-text font-heebo" tabindex="0">
+                <p>33 år gammel kvinne, bor i Trondheim men kommer opprinnelig fra Grong, og jeg studerer
+                    Front-end
                     Development på
                     Noroff Fagskole der jeg er student i deres online program</p>
             </div>
@@ -56,9 +57,9 @@
 
 <body>
     <main class="ma-au">
-        <h1 class="heading-main portfolio txt-center font-azonix">MIN PORTFOLIO:</h1>
+        <h1 class="heading-main portfolio txt-center font-azonix" tabindex="0">MIN PORTFOLIO:</h1>
         <div class="card-container flex">
-            <div class="card-txt-container">
+            <div class="card-txt-container" tabindex="0">
                 <h2>Fenty blog</h2>
                 <p class="course-mobile">Prosjekt Eksamen 1</p>
                 <div class="project-skills flex">
@@ -90,13 +91,13 @@
                 <h3 class="course-title ma-0">Prosjekt Eksamen 1</h3>
             </div>
             <div class="website-screnshot flex f-b">
-                <img src="/img/screenshot-fenty.jpg" alt="screenshot of Community Science Museum website">
+                <img src="/img/screenshot-fenty.jpg" alt="screenshot of Fenty Blog website">
             </div>
         </div>
         <div class="down-arrow"></div>
 
         <div class="card-container flex">
-            <div class="card-txt-container">
+            <div class="card-txt-container" tabindex="0">
                 <h2>Game Hub E-commerce</h2>
                 <p class="course-mobile">Cross-Course Prosjekt</p>
                 <div class="project-skills flex">
@@ -130,7 +131,7 @@
         <div class="down-arrow"></div>
 
         <div class="card-container flex">
-            <div class="card-txt-container">
+            <div class="card-txt-container" tabindex="0">
                 <h2>Community Science Museum</h2>
                 <p class="course-mobile">Semester Prosjekt 1</p>
                 <div class="project-skills flex">
@@ -142,9 +143,11 @@
                     ungdomsskolebarn (7-15 år) og familier med små barn. Museet ønsket en informativ, tiltalende
                     nettside for å tiltrekke ungdomsskoleelever og deres foreldre. Nettstedet måtte være informativt og
                     engasjerende, og oppmuntre seerne til å besøke museet.</p>
-                <p>Dette var min første komplette nettside bygget i ett kurs hos Noroff, og det ble laget over 4 uker
+                <p>Dette var min første komplette nettside bygget i ett kurs hos Noroff, og det ble laget
+                    over 4 uker
                     med design og bygging av nettsiden med HTML og CSS.</p>
-                <p>Hvis du vil sjekke ut GitHub-repo eller se nettstedet live på Netlify, kan du gå inn via knappene
+                <p>Hvis du vil sjekke ut GitHub-repo eller se nettstedet live på Netlify, kan du gå inn via
+                    knappene
                     nedenfor</p>
                 <div class="card-buttons flex flex-wrap flex-jc-cen">
                     <a href="https://github.com/Berrinj/SP1-noroff-CSM" target="_blank" class="card-button">GitHub
@@ -164,7 +167,7 @@
 
         <div class="down-arrow-dark" id="section-2"></div>
 
-        <div class="about-container">
+        <div class="about-container" tabindex="0">
             <h1 class="heading-main education txt-center font-azonix">OM MEG:</h1>
             <p>Hei der! Mitt navn er Marte, 33 år med en stor interesse for web utvikling! Har jobbet i barnehage de
                 siste 10 årene, men jeg har alltid visst at jeg ville gå i en helt annen retning.
@@ -173,23 +176,29 @@
                 Front-End Development hos Noroff School of Technology
                 and Digital Media, og selv om jeg forsatt jobber 80% i barnehage kan jeg endelig
                 si at jeg er jeg godt igang med å gå fra hobby til heltid, og jakten på drømmejobben har startet.</p>
-            <h2 class="sub-heading-main font-azonix">UTDANNELSE</h2>
+            <h2 class="sub-heading-main font-azonix">UTDANNELSE:</h2>
             <ul>
-                <li>Mars 2023: Begynte på min 2-årige Front End Development-utdanning ved Noroff School of Technology
-                    and Digital Media, der uteksamineres jeg i mars 2025.</li>
-                <li>Februar 2023: Fullførte Front End Web Development-sporet på <a
-                        href="https://teamtreehouse.com/profiles/martelilleberre" target="_blank"
-                        class="treehouse-profile-link">TeamTreehouse.com.</a>
-                    <ul>
-                        <li class="treehouse-badges">TeamTreehouse Badges: </li>
-                        <li class="treehouse-points"> TeamTreehouse total Points: </li>
-                    </ul>
+                <li>Mars 2023: <b>Begynte på min 2-årige Front End Development-utdanning ved Noroff Fagskole, der
+                        uteksamineres
+                        jeg i mars 2025.</b></li>
+                <li>Februar 2023: <b>Fullførte Front End Web Development-sporet på <a
+                            href="https://teamtreehouse.com/profiles/martelilleberre" target="_blank"
+                            class="treehouse-profile-link">TeamTreehouse.com.</a></b></li>
+
+                <ul class="stats">
+                    <li class="dynamic-stats">Teamtreehouse dynamisk statistikk:
+                    <li class="treehouse-badges">Badges/Merker: <span class="badges"></span><br>
+                        <span class="last-achieved">Siste merke oppnådd: </span>
+                    </li>
+                    <li class="treehouse-js-points">JavaScript poeng: </li>
+                    <li class="treehouse-points">Totale poeng: </li>
+                </ul>
                 </li>
 
-                <li>Oktober 2018: Barne- og ungdomsarbeider.</li>
+                <li>Oktober 2018: Fagbrev Barne- og ungdomsarbeider faget.</li>
             </ul>
-            <h2 class="sub-heading-main font-azonix">FERDIGHETER</h2>
-            <ul>
+            <h2 class="sub-heading-main font-azonix">FERDIGHETER:</h2>
+            <ul class="skills flex flex-jc-cen flex-wrap">
                 <li>CSS</li>
                 <li>HTML</li>
                 <li>JavaScript</li>
@@ -203,7 +212,7 @@
         </div>
 
         <div class="contact-container" id="section-3">
-            <h1 class="heading-main education txt-center font-azonix">KONTAKT:</h1>
+            <h1 class="heading-main education txt-center font-azonix" tabindex="0">KONTAKT:</h1>
             <div class="social-media-container flex flex-jc-cen flex-wrap">
                 <a href="mailto:berremarte@gmail.com" target="_blank"><svg width="800px" height="800px"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -308,7 +317,7 @@
 
     </main>
     <div class="up-arrow"></div>
-    <footer class="flex flex-jc-cen flex-ai-cen">
+    <footer class="flex flex-jc-cen flex-ai-cen" tabindex="0">
         <div class="copyright">
             <p>Marte Lilleberre &#169; 2024</p>
             <p>All rights reserved</p>

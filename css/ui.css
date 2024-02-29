@@ -39,11 +39,10 @@ header {
 
 .header-container {
     max-width: 1000px;
-    background-image: url(/img/header-background.png);
-    background-repeat: no-repeat;
-    background-position: 0 100%;
+    background-image: url(/img/skjermbilde-html-hvit.png);
     border-bottom: 1px solid #000;
     /* margin-top: 100px; */
+    border-radius: 10px 10px 0 0;
 }
 
 main {

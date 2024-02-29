@@ -160,6 +160,9 @@ nav ul li:hover {
 
 .name-container {
     padding: 0 10px;
+    background-image: url(/img/header-background.png);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
 }
 
 .fed {
@@ -200,6 +203,7 @@ nav ul li:hover {
 
 .sub-heading-main {
     font-weight: 200;
+    padding-top: 20px;
 }
 
 
@@ -307,6 +311,47 @@ nav ul li:hover {
 /* 6.3 EDUCATION    */
 .treehouse-profile-link {
     font-style: italic;
+}
+
+.dynamic-stats {
+    font-weight: 500;
+    background-color: #77936e5e;
+}
+
+.stats {
+    margin: 10px;
+    width: fit-content;
+    border: 1px solid lightgrey;
+    padding: 0;
+    border-radius: 6px;
+    /* background-color: #0d0b2810; */
+}
+
+.last-achieved {
+    font-style: italic;
+}
+
+.stats li,
+.skills li {
+    /* width: fit-content; */
+    /* border-top: 1px solid lightgrey; */
+    padding: 10px;
+    list-style: none;
+}
+
+.stats li {
+    border-top: 1px solid lightgrey;
+}
+
+.stats li:first-child,
+.skills li:first-child {
+    border: none;
+}
+
+.skills {
+    margin-bottom: 50px;
+    padding-inline-start: 0;
+    font-weight: 600;
 }
 
 /* 6.4  CONTACT */
