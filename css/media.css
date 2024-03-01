@@ -139,6 +139,14 @@
         background-image: none;
     }
 
+    .about-container p {
+        font-size: 1.1rem;
+    }
+
+    .skills {
+        align-items: center;
+    }
+
     .social-media-container svg {
         width: 30px;
         height: 30px;

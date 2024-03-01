@@ -1,12 +1,23 @@
-@import url(https://db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=AzonixRegular);
+/* @import url(https://db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=AzonixRegular); */
 /* @import url(https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap); */
 
 /* FONT STYLES */
 
-.font-azonix {
-    font-family: "AzonixRegular";
-}
+
 
 /* .font-heebo {
     font-family: "Heebo";
 } */
+
+@font-face {
+    font-family: "AzonixRegular";
+    src: url("https://db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot");
+    src: url("https://db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.woff2")format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-azonix {
+    font-family: "AzonixRegular";
+}
