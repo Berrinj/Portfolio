@@ -3,8 +3,6 @@
 
 /* FONT STYLES */
 
-
-
 /* .font-heebo {
     font-family: "Heebo";
 } */
@@ -21,3 +19,11 @@
 .font-azonix {
     font-family: "AzonixRegular";
 }
+
+/* @font-face {
+    font-family: "Heebo";
+    src: url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
