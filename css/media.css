@@ -43,6 +43,15 @@
         box-shadow: 10px 13px 34px -6px var(--black);
     }
 
+    .main-menu li {
+        width: inherit;
+    }
+
+    .main-menu li a {
+        display: flex;
+        justify-content: center;
+    }
+
     .header-container {
         background-image: url(/img/skjermbilde-html-hvit-684-resized.avif);
     }
