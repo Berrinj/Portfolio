@@ -305,6 +305,12 @@ nav ul li:hover {
     background-position: top;
 }
 
+.woopsie {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-woopsie.avif);
+    /* object-fit: cover;*/
+    background-position: start;
+}
+
 /* 6.2  ABOUT ME    */
 .about-container p {
     font-size: 1.2rem;
