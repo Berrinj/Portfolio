@@ -6,7 +6,7 @@ This is the portfolio of Marte Lilleberre
 
 ## Description
 
-For my studies at Noroff I've created this portfolio website to display three of my school projects.
+For my studies at Noroff I've created this portfolio website to display three of my school projects. (Now adding more projects as I make them.)
 
 ## Built With
 
