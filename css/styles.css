@@ -138,7 +138,7 @@ nav ul li:hover {
     margin-bottom: 10px;
     border-bottom: 1px solid var(--nav-footer-bg);
     background-color: #0d0b288a;
-    background-image: url(/img/Skjermbilde-html.png);
+    background-image: url(./img/Skjermbilde-html.png);
     border-radius: 6px;
 }
 
@@ -161,7 +161,7 @@ nav ul li:hover {
 
 .name-container {
     padding: 0 10px;
-    background-image: url(/img/profilbilde-300-r.png);
+    background-image: url(./img/profilbilde-300-r.png);
     background-repeat: no-repeat;
     background-position: 0 100%;
 }
@@ -287,26 +287,26 @@ nav ul li:hover {
 }
 
 .game-hub {
-    /* background-image: url(/img/screenshot-gamehub-marte-v3.jpg); */
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-gamehub-marte-v3.avif);
+    /* background-image: url(./img/screenshot-gamehub-marte-v3.jpg); */
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(./img/screenshot-gamehub-marte-v3.avif);
     /* object-fit: fill; */
     background-position: top;
 }
 
 .c-s-m {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-sp1-noroff-csm.avif);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(./img/screenshot-sp1-noroff-csm.avif);
     /* object-fit: cover;*/
     background-position: start;
 }
 
 .f-b {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-fenty-blog.avif);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(./img/screenshot-fenty-blog.avif);
     /* object-fit: cover;*/
     background-position: top;
 }
 
 .woopsie {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(/img/screenshot-woopsie.avif);
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(./img/screenshot-woopsie.avif);
     /* object-fit: cover;*/
     background-position: start;
 }
