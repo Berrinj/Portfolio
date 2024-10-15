@@ -16,7 +16,7 @@ For my studies at Noroff I've created this portfolio website to display three of
 - Threehouse API
 
 ## Live view
-[Live view on GitHub pages](https://berrinj.github.io/Portfolio/)
+[Visit my portfolio here](https://berrinj.github.io/Portfolio/)  (GitHub pages)
 ## Contact
 
 [Send me an email](mailto:berremarte@gmail.com)
